@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+      <title>HTML5</title>
+      <style>
+        /* se diventa grosso in un foglio css esterno */
+        h1{
+          margin: auto;
+          font-size: large;
+        }
+        ol{
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto; 
+        }
+        li{
+          font-size: large;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        p{
+          text-align: center;
+          font-size: larger;
+          margin-inline-start: auto;
+        }
+        button{
+          font-size: larger;
+          text-align: center;
+          margin-top: auto;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+  </head>
+  <body>
+      <div>
+         <h1>EDITOR GRATUITI</h1>
+         <br><h1>NOMI STANDARD</h1>
+         <br><h1>TAG PRINCIPALI</h1>
+              <ol>
+                 <li>html</li>
+                 <li>head(l'intestazione)</li>
+                 <li>nell'head il tag title che e' il titolo</li>
+                 <li>sempre nell'head regole css e script javascript</li>
+                 <li>body</li>
+                 <li>script</li>
+              </ol><br>
+              <p>Nel body si puo' inserire articoli e paragrafi etc. 
+                    <br>Questo e' un paragrafo che come tag ha p.<br>Attenzione al flusso apertura chiusura tag!!
+                    <br> L'andare a capo sforzato si fa con il tag br che non si chiude!<br>Nel body posso inserire pure un bottone col tag button!
+              </p>
+      </div>
+      <div><br/><br/><br/><br/>
+        <h1>UN PO' DI REGOLE CSS(PARTE1)</h1>
+        <ol>
+          <li>color: per il colore</li>
+          <li>text-align: per allineare il testo</li>
+          <li>text-decoration: per sottolineare il testo; <br/>font-style:italic mette in corsivo il testo</li>
+        </ol>
+        <h1>UN PO' DI REGOLE CSS(PARTE2)</h1>
+        <ol>
+          <li>color: per il colore</li>
+          <li>text-align: per allineare il testo</li>
+          <li>text-decoration: per sottolineare il testo; <br/>font-style:italic mette in corsivo il testo</li>
+        </ol>
+      </div>
+      <div>
+        <h1>ATTRIBUTI GLOBALI FIGHI DI HTML5</h1>
+        <ol>
+          <li> contenteditable; se messo a true permette di modificare un paragrafo etc.</li>
+          <li> menuitem label; per creare menu senza passare da javascript da usare col tag html5 menu</li>
+          <li> contextmenu="menu" id="menu" per attivare il menu su elementi della pagina che voglio abbiano tale menu</li>
+          <li> se voglio fare sparire un paragrafo o altro al click uso attributo hidden</li>
+        
+        </ol><br/><br/><br/>
+            <p contenteditable="true">
+                  Prova a modificarmi!
+                  Nel body si puo' inserire articoli e paragrafi etc. 
+                  <br>Questo e' un paragrafo che come tag ha p.<br>Attenzione al flusso apertura chiusura tag!!
+                  <br> L'andare a capo sforzato si fa con il tag br che non si chiude!
+            </p><br/><br/><br/><br/>
+            <div><h1>A VOLTE SERVE JAVASCRIPT</h1></div>
+                <ol>
+                  <li>Per interagire con il tag button</li>
+                  <li>Per la geolocalizzazione</li>
+                  <li>Per il drag and drop</li>
+                </ol>
+            
+      </div>
+      <br/><br/><br/><div>
+              <p><button onclick="">SONO UN BOTTONE</button></p>
+              <p><button onclick="">CLICCAMI</button></p>
+              
+
+      </div>
+      <div>
+      <h1>COME INSERIRE LE IMMAGINI</h1>
+          <ol>
+            <li> Col tag img e suo attributo src.<br/>src sta per source ed indica appunto il percorso delle immagini da inserire</li>
+            <li> Da preferire indicare un percorso relativo!<br/>Questo vale per qualsiasi link!</li>
+            <li> Posso inserire un'immagine sia presente sul mio hard disk che su internet</li>
+            <li> Se metto anche alt come attributo e' meglio.<br/>Se non visualizzo l'immagine almeno so cosa dovrei vedere.<br/>Con html5 posso anche sostituiro con title</li>
+            <li> Se voglio posso mappare un pezzo di immagine e usarla come link.<br/>Scorri sul logo google per individuarla!</li>
+            <li> Uso usemap=#qualcosa e successivamente fuori dall'immagine il tag map e tanti area tag per ogni area da cliccare!</li>
+          </ol>
+        </div>
+            <p>
+              <img alt="logo google" src="https://www.google.it/images/srpr/logo3w.png"
+                   title="ciao"
+                   usemap="#ciao">
+                   <map name="#ciao">
+                    <area shape="rect" coords="0,0,75,75" href="ciao.html" />
+                   </map>
+            </p><br/><br/><br/>
+      <div>
+         <h1>ALTRI TAG</h1>
+             <ol>
+                <li>Link e Ancore</li>
+                <li>i vari head che sonon dei titoli.<br/>Vanno da h1 ad h6</li>
+                <li>Le liste</li>
+                <li>Le tabelle col suo tag table.<br/> tr sta per riga td sta per la cella.<br/>In alcuni casi sono utili i tag thead, tbody e tfoot</li>
+                <li>I video li inserisco col tag video</li>
+              </ol>
+      </div>
+          <p>Un esempio di tabella
+
+
+          </p><br/><br/><br/>
+          <p><br/><br/><p>Un video da Youtube</p>
+              <p>
+              <video width="320" height="240" controls="controls">
+                <source src="https://www.youtube.com/watch?v=GCWTHPtaiXE&list=PL7A4A3449C649048F&index=4"
+                 type="video/mp4" />
+                 <source src="https://www.youtube.com/watch?v=GCWTHPtaiXE&list=PL7A4A3449C649048F&index=4"
+                 type="video/ogg" />
+                 Spiacenti formato video non supportato....
+              </video><br/><br/>Stesso concetto per tag audio.
+          </p><br/><br/><br/>
+      <h1>ALTRI TAG PRIMA DI JAVASCRIPT</h1>
+            <ol>
+              <li>Le form</li>
+              <li>Le text area</li>
+              <li>I radiobutton</li>
+              <li>I button</li>
+              <li>Le combobox</li>
+            </ol>
+                <p>Qui serve anche un codice lato server se voglio elaborare i dati raccolti dal form!!<br/><br/>
+                    Clicca <a href="form.html">qui</a>per continuare a leggere il cheat sheet!
+              </p>
+             
+  </body>
+</html>
