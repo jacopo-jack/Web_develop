@@ -1,0 +1,40 @@
+:root{
+    --background: aqua;
+    --background1:aquamarine;
+
+}
+
+header{
+    font-family: system-ui;
+    background-color: blue;
+    color: black
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: system-ui;
+    display: inline;
+}
+nav{
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+ list-style-type: none;
+ display: inline;
+}
+
+h1{
+   font-size: large;
+   font-family: system-ui;
+   text-align: center;     
+}
+p{
+    font-family: system-ui;
+    text-align: center;
+    text-indent: 0% ;
+}
