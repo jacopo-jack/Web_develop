@@ -8,12 +8,26 @@ h1{
     margin-left: auto;
     margin-right: auto; 
   }
+   ul{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
   li{
     font-size: large;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    list-style: none;
   }
+   a{
+      text-align: center;
+      text-decoration: none;
+      border-groove: 10% blue;
+      background-color: white;
+      color: black;
+       
+   }
   p{
     text-align: center;
     font-size: larger;
