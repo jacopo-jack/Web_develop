@@ -33,9 +33,9 @@ class MyArticle2 extends HTMLElement{
 }
 
 // poi lo definisco col metodo customElements
-customElements.define('my-header',MyHeader);
-customElements.define('my-article1',MyArticle1);
-customElements.define('my-article2',MyArticle2);
+customElements.define('my-header',MyHeader)
+customElements.define('my-article1',MyArticle1)
+customElements.define('my-article2',MyArticle2
 
 // per altre funzionalità del sito
 function taglist(){
